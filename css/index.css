@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+* {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"wdth" 500;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.avatar{
+    width: 150px;
+    background-color: aqua;
+    /* height: 150px; */
+    /* border-radius: 50%; */
+    object-fit: cover;
+}
