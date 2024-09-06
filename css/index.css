@@ -15,9 +15,7 @@ body{
     height: 100vh;
 }
 .avatar{
-    width: 150px;
-    background-color: aqua;
-    /* height: 150px; */
-    /* border-radius: 50%; */
+    width: 200px;  
     object-fit: cover;
+    margin-bottom: 20px;
 }
