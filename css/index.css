@@ -5,17 +5,20 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-variation-settings:"wdth" 500;
+    font-variation-settings: "wdth" 500;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     height: 100vh;
+    /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
+
 }
-.avatar{
-    width: 200px;  
+
+.avatar {
+    width: 200px;
     object-fit: cover;
     margin-bottom: 20px;
 }
