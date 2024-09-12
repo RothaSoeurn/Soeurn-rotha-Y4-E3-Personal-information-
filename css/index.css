@@ -22,3 +22,18 @@ body {
     object-fit: cover;
     margin-bottom: 20px;
 }
+
+
+.line-clamp{
+    display: -webkit-box;
+-webkit-line-clamp: 3;
+line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
